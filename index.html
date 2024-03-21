@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quản lý sức khỏe gia đình</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="dangnhap.html" />
+    <link rel="stylesheet" href="dangky.html" />
+  </head>
+  <body> 
+    <div class="container container-bg">
+      <h1> Website Quản Lí Thông Tin Sức Khỏe Của Gia Đình </h1> 
+      <div class="title">Hãy điền thông tin sức khỏe của gia đình bạn</div>
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details"> Họ và tên( Nick name ở nhà) </span>
+            <input
+              id="fullname"
+              type="text"
+              placeholder="Enter you name"
+              required
+            />
+          </div>
+          <div class="input-box input-select">
+            <span class="details">Mối quan hệ trong gia đình: </span>
+            <select class="form-control" id="thuBac">
+              <option value="Ông">Ông</option>
+              <option value="Bà">Bà</option>
+              <option value="Cha">Cha</option>
+              <option value="Mẹ">Mẹ</option>
+              <option value="Con">Con</option>
+              <option value="Con">Em</option>
+              <option value="Con">Cháu</option>
+            </select>
+          </div>
+          <div class="input-box input-select">
+            <span class="details">Giới tính: </span>
+            <select class="form-control" id="gioiTinh">
+              <option value="Nam">Nam</option>
+              <option value="Nữ">Nữ</option>
+            </select>
+          </div>
+          <div class="input-box">
+            <span class="details"> SĐT(phone) </span>
+            <input
+              id="phone"
+              type="text"
+              placeholder="Enter you number"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <span class="details"> Email </span>
+            <input
+              id="email"
+              type="text"
+              placeholder="Enter you email"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <span class="details"> Thông tin sức khỏe hiện tại </span>
+            <input
+              id="suckhoehientai"
+              type="text"
+              placeholder="Enter you health"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <span class="details"> Toa thuốc bạn đang sử dụng </span>
+            <input
+              id="toathuocdangsudung"
+              type="text"
+              placeholder="Enter you prescription"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <span class="details"> Bệnh nền </span>
+            <input
+              id="benhnen"
+              type="text"
+              placeholder="Enter you sick"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <span class="details"> Bệnh bẩn sinh </span>
+            <input
+              id="benhbamsinh"
+              type="text"
+              placeholder="Enter you sick"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <span class="details"> Loại thuốc bạn đang sử dụng cho từng loại bệnh </span>
+            <input
+              id="loaithuocdangsudung"
+              type="text"
+              placeholder="Enter you prescription"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <span class="details"> Ngày tái khám định kỳ </span>
+            <input
+              id="ngaytaikhamdinhky"
+              type="text"
+              placeholder="Enter you number"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <span class="details"> Số lần tiêm vacxin </span>
+            <input
+              id="solantiemvacxin"
+              type="text"
+              placeholder="Enter you sick"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <span class="details"> Loại vacxin đã tiêm </span>
+            <input
+              id="loaivacxindatiem"
+              type="text"
+              placeholder="Enter you prescription"
+              required
+            />
+          </div>
+          <div class="button">
+            <input class="input-submit" type="submit" value="submit" />
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="./main.js"></script>
+</html>

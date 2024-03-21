@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 40px auto !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("https://img.freepik.com/free-vector/abstract-blue-geometric-shapes-background_1035-17545.jpg?w=2000");
+    background-position: center;
+}
+
+.list {
+    list-style: none;
+}
+
+.list li {
+    position: relative;
+    margin: 20px 0;
+}
+
+.list li .btn-delete {
+    position: absolute;
+    top: 18px;
+    right: 150px;
+  
+}
+
+.list li .btn-detail {
+    position: absolute;
+    bottom: 18px;
+    right: 150px;
+  
+}
+
+.list-item {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    display: flex;
+    /* margin: 20px 0; */
+    padding: 20px 30px;
+    background-color: rgb(135, 168, 233);
+    border-radius: 20px;
+}
+
+.list-item span {
+    flex: 1;
+    font-size: 20px;
+    color: #333;
+}
+
+.list-item span p span {
+    font-weight: 600;
+}
+.form-control {
+    width: 60% !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{text-align: center;}
